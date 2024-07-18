@@ -49,6 +49,15 @@
                                     <constraint firstAttribute="height" constant="190" id="N0h-Nx-RU5"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WaveFinder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="qbG-H9-eLR">
+                                <rect key="frame" x="20" y="421" width="353" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Sdq-mk-wfz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -57,7 +66,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tjx-kv-bCz" secondAttribute="trailing" constant="30" id="5Rj-dF-SQp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J5d-2l-qix" secondAttribute="trailing" constant="30" id="9sN-5i-fdr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lb8-zu-zkm" secondAttribute="trailing" constant="30" id="A26-1o-dJb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qbG-H9-eLR" secondAttribute="trailing" constant="20" id="BeE-Gx-iA7"/>
                             <constraint firstItem="5J1-gb-P5h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I6t-LH-84b"/>
+                            <constraint firstItem="qbG-H9-eLR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XMU-WB-wFI"/>
                             <constraint firstItem="lb8-zu-zkm" firstAttribute="top" secondItem="tjx-kv-bCz" secondAttribute="bottom" constant="10" id="Y9D-f1-JzO"/>
                             <constraint firstItem="5J1-gb-P5h" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="azs-bi-203"/>
                             <constraint firstItem="J5d-2l-qix" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="gl1-J1-rPh"/>
@@ -66,6 +77,7 @@
                             <constraint firstItem="J5d-2l-qix" firstAttribute="top" secondItem="lb8-zu-zkm" secondAttribute="bottom" constant="20" id="hjl-gV-Diu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="J5d-2l-qix" secondAttribute="bottom" constant="20" id="nu3-XN-HzA"/>
                             <constraint firstItem="5J1-gb-P5h" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-125" id="rOB-xG-Kkz"/>
+                            <constraint firstItem="qbG-H9-eLR" firstAttribute="top" secondItem="5J1-gb-P5h" secondAttribute="bottom" constant="25" id="xra-vV-PEg"/>
                         </constraints>
                     </view>
                 </viewController>
