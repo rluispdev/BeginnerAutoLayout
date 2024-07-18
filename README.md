@@ -1,12 +1,13 @@
 
 
 
-## 🎨 Design
+## 🎨 BeginnerAutoLayout
+
 
 Este projeto está em desenvolvimento, e a tela de login será similar a esta:
 
 <p align="center">
-  <img src="design/LoginDrinkClub.png" alt="Tela de Login" width="50%">
+  <img src="image.png" alt="Tela de Login" width="50%">
 </p>
 
 **Observações:**
