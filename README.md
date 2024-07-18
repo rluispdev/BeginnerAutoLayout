@@ -32,6 +32,9 @@ O código do projeto será organizado da seguinte forma:
 - Implementar a funcionalidade de login.
 - Criar a próxima tela do aplicativo.
 
+  ## 📼 Tutorial - Beginner Auto Layout & Constraints - Swift 4.2 - Xcode 10
+
+-    <a href= "https://www.youtube.com/watch?v=m_0_XQEfrGQ"> LINK Sean Allen </a> 
 ## 🤝 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, enviar pull requests ou entrar em contato se tiver alguma dúvida.
